@@ -153,23 +153,17 @@ public class CalculatorProgremmer extends Calculator
         return this.op1/ this.op2;
     }
 
-    /*
-     * public static void Desimal toBiner(int n){
+ public static void Biner(int n){
      if(n>1){
          Biner(n/2);
      }
      System.out.print(n%2);
  }
-     */
     
-    /*public static void Hexadesimal(int n){
+ public static void Hexadesimal(int n){
      if (n > 1) {
-            DesimalToHexa(n/16);
+            Hexadesimal(n/16);
         }
         System.out.print(n%16);
     }
-     
-     }
-     * 
-     */
 }
