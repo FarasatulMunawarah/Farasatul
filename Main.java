@@ -71,6 +71,8 @@ public class Main
       System.out.println("Nilai dari sin adalah :" + Math.sin(120));
       System.out.println("Nilai dari cos adalah :" + Math.cos(180));
       System.out.println("Nilai dari tan adalah :" + Math.tan(30));
+      System.out.println("Nilai dari sudut derajat sudut untuk PI/3 adalah" + Math.toDegrees(Math.PI/3) + " derajat");
+      System.out.println("Nilai dari sudut radian untuk sudut 120 derajat adalah " + Math.toRadians(120));
 }
 }     
        
