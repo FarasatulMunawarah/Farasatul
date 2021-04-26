@@ -8,3 +8,5 @@
 [![N|Solid](https://github.com/FarasatulMunawarah/Farasatul/blob/master/ss4.png)(https://github.com/FarasatulMunawarah/Farasatul/blob/master/ss4.png)
 
 [![N|Solid](https://github.com/FarasatulMunawarah/Farasatul/blob/master/ss5.png)(https://github.com/FarasatulMunawarah/Farasatul/blob/master/ss5.png)
+
+[![N|Solid](https://github.com/FarasatulMunawarah/Farasatul/blob/master/ss6.png)(https://github.com/FarasatulMunawarah/Farasatul/blob/master/ss6.png)
