@@ -73,7 +73,52 @@ public class Main
       System.out.println("Nilai dari tan adalah :" + Math.tan(30));
       System.out.println("Nilai dari sudut derajat sudut untuk PI/3 adalah" + Math.toDegrees(Math.PI/3) + " derajat");
       System.out.println("Nilai dari sudut radian untuk sudut 120 derajat adalah " + Math.toRadians(120));
+    
+      
+      Kalkulator cl = new Kalkulator();
+      //SimpanOperasiCalculator  spr = new SimpanOperasikeMemoryReverse();
+      SimpanOperasiCalculator  spr = new SimpanOperasikeMemoryForward();
+      
+      cl.setSimpanOperasi(spr);
+      
+      cl.op1 = 1;
+      cl.op2 = 1;
+      System.out.println("");
+      System.out.println("1 + 1 = "+ cl.jumlah());
+      //System.out.println("1 x 1 = "+ cl.kali());
+      //System.out.println("1 - 1 = "+ cl.kurang());
+      //System.out.println("1 / 1 = "+ cl.bagi());
+      
+      cl.op1 = 2;
+      cl.op2 = 2;
+      System.out.println("");
+      System.out.println("2 + 2 = "+ cl.jumlah());
+      //System.out.println("2 x 2 = "+ cl.kali());
+      //System.out.println("2 - 2 = "+ cl.kurang());
+      //System.out.println("2 / 2 = "+ cl.bagi());
+      
+      cl.op1 = 3;
+      cl.op2 = 3;
+      System.out.println("");
+      System.out.println("3 + 3 = "+ cl.jumlah());
+      //System.out.println("3 x 3 = "+ cl.kali());
+      //System.out.println("3 - 3 = "+ cl.kurang());
+      //System.out.println("3 / 3 = "+ cl.bagi());
+      
+      System.out.println("Data dari memori: ");
+      
+      System.out.println(cl.bacaOperasi());
+       
+       
+    
+    }
 }
-}     
+       
+       
+    
+    
+
+
+     
        
     
